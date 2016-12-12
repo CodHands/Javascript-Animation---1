@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Grippy</title>
+       <link rel="stylesheet" href="css/style.css"/>
+       <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	   <script>
+		$(document).ready(function() {
+		$('a[href*=#]').each(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+		&& location.hostname == this.hostname
+		&& this.hash.replace(/#/,'') ) {
+		var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+		var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+		if ($target) {
+		var targetOffset = $target.offset().top;
+		$(this).click(function() {
+					$("#nav li a").removeClass("active");
+					$(this).addClass('active');
+		$('html, body').animate({scrollTop: targetOffset}, 1000);
+		return false;
+		});
+		}
+		}
+		});
+		 
+		});
+	   </script>
+</head>
+<body>
+
+<header id="header">
+<div>
+<div id="logo"><a href="#slide1">GRIPPY</a></div>
+
+<nav id="nav">
+	<ul>
+	<li><a href="#slide1" title="next section">Slide 1</a></li>
+	<li><a href="#slide2" title="next section">Slide 2</a></li>
+	<li><a href="#slide3" title="next section">Slide 3</a></li>
+	<li><a href="#slide4" title="next section">Slide 4</a></li>
+	<li><a href="#slide5" title="next section">Slide 5</a></li>
+	</ul>
+</nav>
+
+</div>
+</header>
+
+<div id="slide1">
+	<div class="content">
+		<h1>slide1</h1>
+	</div>
+</div>
+
+<div id="slide2">
+	<div>
+		<h1>slide2</h1>
+	</div>
+</div>
+
+<div id="slide3">
+	<div>
+		<h1>slide3</h1>
+	</div>
+</div>
+
+<div id="slide4">
+	<div>
+		<h1>slide4</h1>
+	</div>
+</div>
+
+<div id="slide5">
+	<div>
+		<h1>slide5</h1>
+	</div>
+</div>
+
+<div id="footer">
+	<div id="social">
+		<center><p>Facebook | Twitter | Google+</p></center>
+	</div>
+	<hr width="70%" color="#000">
+	<div id="copyright">
+		<center><p>Copyright 2015 Grippy | Powered by Signizers</p></center>
+	</div>
+</div>
+	
+
+</body>
+</html>

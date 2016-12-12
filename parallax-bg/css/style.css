@@ -1,0 +1,124 @@
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+h1{
+	font-family:"Arvo";
+	font-weight:normal;
+	font-size:55px;
+	text-align:center;
+	color:#fff;
+	margin:0;
+	margin-bottom:20px;
+	padding:0;
+}
+
+h2{
+	font-family:"Arvo";
+	font-weight:normal;
+	font-size:40px;
+	text-align:center;
+	color:#fff;
+	margin:0;
+	padding:0;
+}
+
+h3{
+	font-family:"Arvo";
+	font-weight:normal;
+	font-size:16px;
+	text-align:center;
+	color:#fff;
+	margin:0;
+	padding:0;
+}
+
+.center{margin: 0 auto;}
+.content{margin:0 auto; width:960px; color: #fff; font-family:"Wellfleet";}
+.clear{clear:both;}
+
+#header{
+	width:100%;
+	background: url('../img/header-bg.png');
+	height: 80px;
+	position: fixed;
+	margin-top:0px;
+}
+
+#nav{ width: 410px; float:right; margin-top:20px; margin-right:50px;}
+#logo a{ color: #fff; text-decoration:none; float:left; font-size:30px; margin-top:20px; margin-left:50px; font-family: "Wellfleet"; font-weight:bold;}
+
+#nav ul{
+	list-style:none;
+	display:block;
+	margin: 0 auto;
+	list-style:none;
+}
+
+#nav li{
+	margin-top: 9px;
+	float:left;
+	padding-left: 21px;
+}
+
+#nav li a{color: #fff; opacity:0.6; font-size: 16px; text-decoration:none; font-family: 'Wellfleet';}
+nav li a.active{color: #fff; opacity:1; border-bottom: 2px solid #fff;}
+nav li a:hover{ color:#fff; opacity:1;}
+
+#slide1, #slide2{width:100%;}
+#slide1{
+	background: url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+	color:fff;
+	min-height:600px;
+	margin:0;
+	padding:100px 0 100px 0;
+	background-size:cover;
+}
+
+#slide2{
+	background: url('../img/slide2.jpg') 50% 0 no-repeat fixed;
+	color: #333333;
+	height:600px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:100px 0;
+	background-size:cover;
+}
+
+#slide3{
+	background:url('../img/slide3.jpg') 50% 0 no-repeat fixed;
+	color:#fff;
+	height:600px;
+	padding: 100px 0 0 0;
+	background-size:cover;
+}
+
+#slide4{
+	background: url('../img/slide4.jpg') 50% 0 no-repeat fixed;
+	color: #333333;
+	height:600px;
+	padding:100px 0;
+	background-size:cover;
+	
+}
+
+#slide5{
+	background:url('../img/slide5.jpg') 50% 0 no-repeat fixed;
+	height: 600px;
+	margin: 0 auto;
+	padding: 100px 0;
+	color: #fff;
+	background-size:cover;
+}
+
+#footer{
+	padding: 10px;
+}
+
+#copyright, #social{
+	font-family:"Arial";
+	
+}
+
